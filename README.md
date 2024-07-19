@@ -66,6 +66,7 @@ git status // узнать состояние файла
 graph LR;
   untracked -- "git add" --> staged;
   staged    -- "git commit"     --> tracked;
+  staged    -- "Any changes" --> modified;
   tracked   -- "Any changes" --> modified;
   modified  -- "git add" --> staged;
 
