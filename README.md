@@ -63,7 +63,8 @@ git status // узнать состояние файла
 ```   
 
 ```mermaid
-graph TD; %% TD - вертикально, LR - горизонтально
+graph TD; 
+%% TD - вертикально, LR - горизонтально
   untracked -- "git add" --> staged;
   staged    -- "git commit"     --> tracked;
   staged    -- "Any changes" --> modified;
