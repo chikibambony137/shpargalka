@@ -67,4 +67,3 @@ git log --oneline
 git status
 '''
 - узнать состояние файла
-
