@@ -1,0 +1,19 @@
+# ignore PNG files
+*.png
+
+# ignore this files
+file?.txt
+
+docs/*/tmp
+
+file[12-13].txt
+
+tmp[abc].txt
+
+aboba/
+
+docs/**/tmp1
+
+!file5.txt
+
+!cat_on_arbuz.png
